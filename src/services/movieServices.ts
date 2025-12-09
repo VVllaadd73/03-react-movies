@@ -11,7 +11,7 @@ interface moviesResponse {
     results: Movie[];
 }
 
-export default async function fetchMovies(query: string): Promise<Movie[]> {
+export async function fetchMovies(query: string): Promise<Movie[]> {
     const configData = {
         params: { query },
         headers: {
