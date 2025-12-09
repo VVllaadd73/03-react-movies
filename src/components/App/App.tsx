@@ -8,7 +8,7 @@ import SearchBar from "../SearchBar/SearchBar";
 import ErrorMessage from "../ErrorMessage/ErrorMessage";
 import MovieGrid from "../MovieGrid/MovieGrid";
 import MovieModal from "../MovieModal/MovieModal";
-import type Movie from "../../types/movie";
+import type { Movie } from "../../types/movie";
 
 export default function App() {
     const [movies, setMovies] = useState<Movie[]>([]);
